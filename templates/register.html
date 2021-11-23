@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+    <body>
+        <div class="container2">
+            <h2 style="color: black;">Register</h2><br>
+            <form action="/register" method="POST">
+                <label style="color: white;" for="user">Username:</label><br>
+                <input type="text" class="input" id="user" name="user" placeholder="enter your username here"><br><br>
+                <label style="color: white;" for="pass">Password:</label><br>
+                <input type="password" class="input" id="pass" name="pass" placeholder="enter your password here"><br><br><br>
+                <button type="submit" class = "btn"><span>Register</span></button>
+            </form>
+            <a href="/login">
+                <button type="button" class = "btn"><span>Back</span></button>
+            </a>
+        </div>
+    </body>
+</html>
